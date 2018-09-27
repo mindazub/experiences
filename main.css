@@ -1,0 +1,21 @@
+body {
+    background: whitesmoke;
+}
+
+.title-big {
+    margin: auto 15px auto 15px;
+    border-top: dashed;
+    border-bottom: dashed;
+}
+
+h1 {
+
+}
+
+.card {
+    width: 482px;
+    height: 682px;
+
+    margin: 150px auto auto auto;
+    border: 2px solid darkgrey;
+}
