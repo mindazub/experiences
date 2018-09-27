@@ -1,16 +1,30 @@
 body {
     background: whitesmoke;
 }
+h1, h2, h3, p {
+    color: white;
+}
 
-.title-big {
-    margin: auto 15px auto 15px;
-    border-top: dashed;
-    border-bottom: dashed;
+h2, h3, p {
+    text-align: right;
 }
 
 h1 {
-
+    margin: 15px 10px;
+    border-top: dashed;
+    border-bottom: dashed;
+    padding-left: 95px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+
+
+p {
+    text-align: right;
+    font-size: 1.1em;
+}
+
 
 .card {
     width: 482px;
@@ -18,4 +32,15 @@ h1 {
 
     margin: 150px auto auto auto;
     border: 2px solid darkgrey;
+    background: #1e272e;
 }
+
+.card-inner {
+
+    padding: 20px;
+}
+
+.card-inner-no-h1 {
+    margin-top: 55px;
+}
+
