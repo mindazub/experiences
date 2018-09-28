@@ -1,6 +1,17 @@
 body {
     background: whitesmoke;
 }
+
+@font-face {
+    font-family: bebas;
+    src: url('css/bebas.ttf');
+}
+
+@font-face {
+    font-family: barlow-condensed;
+    src: url('css/barlow-condensed/BarlowCondensed-ExtraLight.ttf')
+}
+
 h1, h2, h3, p {
     color: white;
 }
@@ -11,24 +22,44 @@ h2, h3, p {
 
 h1 {
     margin: 15px 10px;
-    border-top: dashed;
-    border-bottom: dashed;
-    padding-left: 95px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-top: dotted #808080;
+    border-bottom: dotted #808080;
+    padding-left: 85px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'barlow-condensed', sans-serif;
+    font-weight: 100;
+    font-size: 3.5em;
+    letter-spacing: -1px;
 }
 
+h2 {
+    margin-bottom: 0;
+    font-family: 'bebas', sans-serif;
+}
 
+#california_design {
+    font-size: 1.9em;
+    color: #3c6382;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    color: #808080;
+}
 
 p {
     text-align: right;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
 }
 
 
 .card {
-    width: 482px;
-    height: 682px;
+    width: 462px;
+    /*height: 682px;*/
+    height: 712px;
 
     margin: 150px auto auto auto;
     border: 2px solid darkgrey;
@@ -38,9 +69,11 @@ p {
 .card-inner {
 
     padding: 20px;
+
 }
 
 .card-inner-no-h1 {
-    margin-top: 55px;
+    margin-top: 30px;
+
 }
 
